@@ -11,7 +11,7 @@ This repository contains the definition of the data model of the edition humbold
 * ediarum.avhr.odd: General data model for edited texts of the ehd (based on ediarum.BASE)
 * ediarum.avhr.register.odd: Data model for index entries (based on ediarum.REGISTER)
 * ediarum.avhr.api.odd: Data model for the published versions of the edited texts (based on ediarum.avhr.odd)
-* ediarum.abhr.api.articles.odd: Data model for the research articles
+* ediarum.avhr.api.articles.odd: Data model for the research articles
 
 As noted above, most of the data models are based on generic data models, like [ediarum.BASE.data-model](https://github.com/ediarum/ediarum.BASE.data-model) and the [Base Format of the German Text Archive](https://deutschestextarchiv.de/doku/basisformat/) (DTABf). The data models are therefore formally derived from these models using ODD chaining, e.g. the (compiled) ediarum.BASE ODD is specified as the source schema in the ODD (in `schemaSpec/@source`). 
 
